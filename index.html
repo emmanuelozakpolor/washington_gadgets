@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Washington Gadgets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/wg-logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <span class="close-icon" onclick="hideMenu()">&times;</span>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BRANDS</a></li>
+                <li><a href="">OUR STORES</a></li>
+                <li><a href="">OUR SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>    
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Best Deals In Gadgets</h1>
+            <p>Your one stop shop for brand new and foreign used gadget of all major brands</p>
+            <a href=""class="hero-btn">One click for more</a>
+        </div>
+    </section>
+
+    <section class="brands">
+        <h1>Our available brands</h1>
+        <p>By popular demand, we have major brands from american to european to asian brands.</p>
+
+        <div class="row">
+            <div class="brand-col">
+                <h3>Galaxy Note 10</h3>
+                <p>We have the all new samsung galaxy <br> note 10 in stock and it comes sleek and with factory features.</p>
+            </div>
+            <div class="brand-col">
+                <h3>Galaxy  S20+</h3>
+                <p>We have the all new samsung galaxy <br> S20+ in stock and it comes sleek and with factory features.</p>
+            </div>
+            <div class="brand-col">
+                <h3>Galaxy Z flip</h3>
+                <p>We have the all new samsung galaxy <br> Z flip in stock and it comes sleek and with factory features.</p>
+            </div>           
+        </div>
+    </section>
+
+<!--- Our Stores --->
+
+    <section class="our stores">
+        <h1>Our Local Stores</h1>
+        <p>Check out our various local stores locations where you can get all of our products</p>
+        
+        <div class="row">
+            <div class="stores-col">
+                <img src="images/singapore-gadget.jpg">
+                <div class="layer">
+                    <h3>IKEJA</h3>
+                </div>
+            </div>
+            <div class="stores-col">
+                <img src="images/gadget.jpg">
+                <div class="layer">
+                    <h3>AJAH</h3>
+                </div>
+            </div>
+            <div class="stores-col">
+                <img src="images/gadget_shop.jpg">
+                <div class="layer">
+                    <h3>VICTORIA ISLAND</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--- Our Services--->   
+<section class="services">
+    <h1>Our services</h1>
+    <p>Our customer friendly services are top notch and designed for your very needs.</p>
+
+    <div class="row">
+        <div class="service-col">
+            <img src="images/gadget_sales.jpg">
+                <h3>Gadget Sales</h3>
+                <p>We assure you that our local stores have all of our brands at affordable rates and flexible purchase
+                    and fast delivery.</p>
+        </div>
+        <div class="service-col">
+            <img src="images/phone-repair.jpg">
+                <h3>Gadget Repairs</h3>
+                <p>Visit any of our local stores to fix your mobile at an affordable rate.</p>
+        </div>
+        <div class="service-col">
+            <img src="images/phone-swap.jpg">
+                <h3>Gadget swaps</h3>
+                <p>Do you want to swap your mobile for another and you're considering an affordable transaction? <br>
+                We are your go to guy.</p>
+        </div>
+    </div>
+</section> 
+
+<!--- Contact --->
+
+<section class="CONTACT">
+    <h1>Contact</h1>
+    <p>Kindly contact us for more information. We are always available.</p>
+    <a href="">CONTACT US</a>
+</section>
+
+<!---Javascript for toggle menu--->   
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-250px";
+    }
+
+</script>
+    
+    </section>
+</body>
+</html>
